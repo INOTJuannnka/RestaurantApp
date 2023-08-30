@@ -1,0 +1,418 @@
+\hypertarget{class_restaurant_library_1_1cls_system}{}\doxysection{Restaurant\+Library.\+cls\+System Class Reference}
+\label{class_restaurant_library_1_1cls_system}\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+
+
+The cls\+System class represents the main system of the restaurant. It contains methods to manage the menu, tables, employers, and bills.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_adc22ba0f1b1417a216f4d8c3a436d77f}{create\+Menu}} (List$<$ String $>$ prm\+Food\+Name, List$<$ double $>$ prm\+Foor\+Price)
+\begin{DoxyCompactList}\small\item\em Creates a new menu with the given food names and prices. \end{DoxyCompactList}\item 
+List$<$ String $>$ \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a9c77ca331e3b3b69c496b0788c2482ec}{get\+Menu\+Food}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the list of food items in the menu. \end{DoxyCompactList}\item 
+List$<$ Double $>$ \mbox{\hyperlink{class_restaurant_library_1_1cls_system_ae39a8976aafce5deb6e284e2d4958541}{get\+Menu\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the list of food prices in the menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_ac327e743215eb0b6b8d3678ef9110870}{set\+Table\+State}} (int prm\+Table, int prm\+State)
+\begin{DoxyCompactList}\small\item\em Sets the state of a table with the given table number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_restaurant_library_1_1cls_system_ab0d180acaf53bfdcb714f9a0a7d39e19}{Get\+Table\+State}} (int prm\+Table)
+\begin{DoxyCompactList}\small\item\em Retrieves the state of a table with the given table number. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a1e2e23683c7eebd3a38222e2086f5ba7}{Get\+Fld\+Table}} (int prm\+Table)
+\begin{DoxyCompactList}\small\item\em Retrieves the ID of a table with the given table number. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_restaurant_library_1_1cls_system_aa9ae48d4761d7164250239dd3c027627}{Get\+Fld\+Employer}} (int prm\+Employer)
+\begin{DoxyCompactList}\small\item\em Retrieves the ID of an employer with the given employer number. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a76e755d616b5bafe5e5c16c0434e1106}{Create\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Creates a new table and adds it to the list of tables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_abdd8c7d1f4bc16c9a0447941cdd8a59f}{Create\+Table}} (String prm\+Table\+ID, int prm\+Table\+State)
+\begin{DoxyCompactList}\small\item\em Creates a new table with the given table ID and state, and adds it to the list of tables. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_restaurant_library_1_1cls_system_af0d61fe9b6f1ad3675a6752c6e4c22e6}{Delete\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Deletes the last table in the list of tables. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a3f1de7623f5e2db3e4f369e621ba0209}{Upgrade\+Table\+State}} (string ID, int prm\+Table\+State)
+\begin{DoxyCompactList}\small\item\em Upgrades the state of a table with the given table ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a4303d5f3e6fdf585f854b3c18a5e5f15}{New\+Employer}} (string prm\+Name, string prm\+Lastname)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a1a3b140c57827c9ae0d54f9f3d84d358}\label{class_restaurant_library_1_1cls_system_a1a3b140c57827c9ae0d54f9f3d84d358}} 
+bool {\bfseries Update\+Employer} (string ID, string prm\+Name, string prm\+Last\+Name)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a2f84372ccbd2f4e732cf45e5ab8d24bd}\label{class_restaurant_library_1_1cls_system_a2f84372ccbd2f4e732cf45e5ab8d24bd}} 
+bool {\bfseries Delete\+Employer} (string ID)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_aaea981ba102f4e599e47fb3f4727401d}\label{class_restaurant_library_1_1cls_system_aaea981ba102f4e599e47fb3f4727401d}} 
+void {\bfseries Generate\+Bill} (double prm\+Bill\+Amount, List$<$ string $>$ prm\+Bill\+Item\+List, List$<$ double $>$ prm\+Bill\+Price, string prm\+Emp\+ID, string prm\+Table\+ID)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a4a54b2d835ad5ed478addfc3b1e18ca5}\label{class_restaurant_library_1_1cls_system_a4a54b2d835ad5ed478addfc3b1e18ca5}} 
+void {\bfseries Update\+Bill} (int prm\+Pos, double prm\+Bill\+Amount, List$<$ string $>$ prm\+Bill\+Item\+List, List$<$ double $>$ prm\+Bill\+Price, String prm\+Emp\+Name)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a9867efb55b28457c79938fcc630fb0b5}\label{class_restaurant_library_1_1cls_system_a9867efb55b28457c79938fcc630fb0b5}} 
+\mbox{\hyperlink{class_restaurant_library_1_1cls_bill}{cls\+Bill}} {\bfseries Get\+Fld\+My\+Bill} (int prm\+Poss)
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_abf3e708f56e62c8a7ee7626db0769cb4}\label{class_restaurant_library_1_1cls_system_abf3e708f56e62c8a7ee7626db0769cb4}} 
+List$<$ \mbox{\hyperlink{class_restaurant_library_1_1cls_bill}{cls\+Bill}} $>$ {\bfseries Show\+Bill\+History} ()
+\item 
+Array\+List \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a615a7b4009f2126694d0ecab4c2f4094}{Get\+Cls\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Get\+Cls\+Table method This method checks if the Array\+List is null, if it is, it creates a new instance of Array\+List object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a995a486d39d9af66c55a0b8dee606258}{Set\+Cls\+Table}} (Array\+List new\+Cls\+Table)
+\begin{DoxyCompactList}\small\item\em Set\+Cls\+Table method sets the Cls\+Table Array\+List object. An Array\+List object containing Cls\+Table elements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a1e75e41c874be99daceac7ad3ab422d3}{Add\+Cls\+Table}} (\mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}} new\+Cls\+Table)
+\begin{DoxyCompactList}\small\item\em Add\+Cls\+Table method adds a new Cls\+Table object to the cls\+Table Array\+List. A new Cls\+Table object to be added in cls\+Table Array\+List. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a19c8abe48a27cef6100374722a15be3e}{Remove\+Cls\+Table}} (\mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}} old\+Cls\+Table)
+\begin{DoxyCompactList}\small\item\em Add\+Cls\+Table method adds a new Cls\+Table object to the cls\+Table Array\+List. A new Cls\+Table object to be added in cls\+Table Array\+List. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_aae66d15f585fc50a2f9d3357fc52d7ed}\label{class_restaurant_library_1_1cls_system_aae66d15f585fc50a2f9d3357fc52d7ed}} 
+void {\bfseries Remove\+All\+Cls\+Table} ()
+\begin{DoxyCompactList}\small\item\em Remove\+All\+Cls\+Table method removes all elements in the cls\+Table Array\+List. \end{DoxyCompactList}\item 
+Array\+List \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a9fc8e7d85fbcfdf8d1e4bf3111e965a0}{Get\+Employer}} ()
+\begin{DoxyCompactList}\small\item\em Get\+Persons method This method checks if the Array\+List is null, if it is, it creates a new instance of Array\+List object. persons Array\+List object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a4a36e2713472c507427f04241bc4b2b7}{Set\+Employer}} (Array\+List new\+Persons)
+\begin{DoxyCompactList}\small\item\em Set\+Persons method sets the Persons Array\+List object. An Array\+List object containing Cls\+Employer elements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a6f0cff4026f3bc5fc339d74c36af67bf}{Add\+Employer}} (\mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}} new\+Cls\+Employer)
+\begin{DoxyCompactList}\small\item\em Add\+Persons method adds a new Cls\+Employer object to the persons Array\+List. A new Cls\+Employer object to be added in persons Array\+List. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_restaurant_library_1_1cls_system_a83badb494a864eae31b2a5ef73f7e3dc}{Remove\+Employer}} (\mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}} old\+Cls\+Employer)
+\begin{DoxyCompactList}\small\item\em Remove\+Persons method removes a specific Cls\+Employer object from the persons Array\+List. A Cls\+Employer object to be removed from persons. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a4a684306d3e561baff139b78f91b5d68}\label{class_restaurant_library_1_1cls_system_a4a684306d3e561baff139b78f91b5d68}} 
+void {\bfseries Remove\+All\+Employer} ()
+\begin{DoxyCompactList}\small\item\em The Remove\+All\+Persons() method removes all the persons from the list. If the persons list is null, the method does nothing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a51009c6dd8d67a37653accde894ab8c6}\label{class_restaurant_library_1_1cls_system_a51009c6dd8d67a37653accde894ab8c6}} 
+\mbox{\hyperlink{class_restaurant_library_1_1cls_menu}{cls\+Menu}} {\bfseries My\+Menu}
+\begin{DoxyCompactList}\small\item\em The Cls\+Menu class represents a menu object, which is referenced by the My\+Menu field. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a6971b1e321f188850f751921365fe587}\label{class_restaurant_library_1_1cls_system_a6971b1e321f188850f751921365fe587}} 
+List$<$ \mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}} $>$ {\bfseries Fld\+My\+Table} = new List$<$\mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}}$>$()
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_ac9ac41f3e902155653d233d054d49bed}\label{class_restaurant_library_1_1cls_system_ac9ac41f3e902155653d233d054d49bed}} 
+List$<$ \mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}} $>$ {\bfseries Fld\+My\+Employer} = new List$<$\mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}}$>$()
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_aeb3d3e01b3a4501c9dbb4c4cb986e0b4}\label{class_restaurant_library_1_1cls_system_aeb3d3e01b3a4501c9dbb4c4cb986e0b4}} 
+List$<$ \mbox{\hyperlink{class_restaurant_library_1_1cls_bill}{cls\+Bill}} $>$ {\bfseries Fld\+My\+Bill} = new List$<$\mbox{\hyperlink{class_restaurant_library_1_1cls_bill}{cls\+Bill}}$>$()
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a9877a7a69cf28fc8f7f3890503ba3adc}\label{class_restaurant_library_1_1cls_system_a9877a7a69cf28fc8f7f3890503ba3adc}} 
+\mbox{\hyperlink{class_restaurant_library_1_1cls_menu}{cls\+Menu}} {\bfseries Fld\+Menu}
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a8f03d7f97a66c4d64924c14498a97d0a}\label{class_restaurant_library_1_1cls_system_a8f03d7f97a66c4d64924c14498a97d0a}} 
+Array\+List {\bfseries cls\+Table}
+\item 
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a2d4932f71d8c02240405e863cc9329df}\label{class_restaurant_library_1_1cls_system_a2d4932f71d8c02240405e863cc9329df}} 
+Array\+List {\bfseries employer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The cls\+System class represents the main system of the restaurant. It contains methods to manage the menu, tables, employers, and bills. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a1e75e41c874be99daceac7ad3ab422d3}\label{class_restaurant_library_1_1cls_system_a1e75e41c874be99daceac7ad3ab422d3}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!AddClsTable@{AddClsTable}}
+\index{AddClsTable@{AddClsTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{AddClsTable()}{AddClsTable()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Add\+Cls\+Table (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}}}]{new\+Cls\+Table }\end{DoxyParamCaption})}
+
+
+
+Add\+Cls\+Table method adds a new Cls\+Table object to the cls\+Table Array\+List. A new Cls\+Table object to be added in cls\+Table Array\+List. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Cls\+Table} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a6f0cff4026f3bc5fc339d74c36af67bf}\label{class_restaurant_library_1_1cls_system_a6f0cff4026f3bc5fc339d74c36af67bf}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!AddEmployer@{AddEmployer}}
+\index{AddEmployer@{AddEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{AddEmployer()}{AddEmployer()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Add\+Employer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}}}]{new\+Cls\+Employer }\end{DoxyParamCaption})}
+
+
+
+Add\+Persons method adds a new Cls\+Employer object to the persons Array\+List. A new Cls\+Employer object to be added in persons Array\+List. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Cls\+Employer} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_adc22ba0f1b1417a216f4d8c3a436d77f}\label{class_restaurant_library_1_1cls_system_adc22ba0f1b1417a216f4d8c3a436d77f}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!createMenu@{createMenu}}
+\index{createMenu@{createMenu}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{createMenu()}{createMenu()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+create\+Menu (\begin{DoxyParamCaption}\item[{List$<$ String $>$}]{prm\+Food\+Name,  }\item[{List$<$ double $>$}]{prm\+Foor\+Price }\end{DoxyParamCaption})}
+
+
+
+Creates a new menu with the given food names and prices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Food\+Name} & The list of food names.\\
+\hline
+{\em prm\+Food\+Price} & The list of food prices.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a76e755d616b5bafe5e5c16c0434e1106}\label{class_restaurant_library_1_1cls_system_a76e755d616b5bafe5e5c16c0434e1106}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!CreateTable@{CreateTable}}
+\index{CreateTable@{CreateTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{CreateTable()}{CreateTable()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Restaurant\+Library.\+cls\+System.\+Create\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creates a new table and adds it to the list of tables. 
+
+\begin{DoxyReturn}{Returns}
+True if the table creation is successful, false otherwise.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_abdd8c7d1f4bc16c9a0447941cdd8a59f}\label{class_restaurant_library_1_1cls_system_abdd8c7d1f4bc16c9a0447941cdd8a59f}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!CreateTable@{CreateTable}}
+\index{CreateTable@{CreateTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{CreateTable()}{CreateTable()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Create\+Table (\begin{DoxyParamCaption}\item[{String}]{prm\+Table\+ID,  }\item[{int}]{prm\+Table\+State }\end{DoxyParamCaption})}
+
+
+
+Creates a new table with the given table ID and state, and adds it to the list of tables. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Table\+ID} & The ID of the table.\\
+\hline
+{\em prm\+Table\+State} & The state of the table.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_af0d61fe9b6f1ad3675a6752c6e4c22e6}\label{class_restaurant_library_1_1cls_system_af0d61fe9b6f1ad3675a6752c6e4c22e6}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!DeleteTable@{DeleteTable}}
+\index{DeleteTable@{DeleteTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{DeleteTable()}{DeleteTable()}}
+{\footnotesize\ttfamily bool Restaurant\+Library.\+cls\+System.\+Delete\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Deletes the last table in the list of tables. 
+
+\begin{DoxyReturn}{Returns}
+True if the table deletion is successful, false otherwise.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a615a7b4009f2126694d0ecab4c2f4094}\label{class_restaurant_library_1_1cls_system_a615a7b4009f2126694d0ecab4c2f4094}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!GetClsTable@{GetClsTable}}
+\index{GetClsTable@{GetClsTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{GetClsTable()}{GetClsTable()}}
+{\footnotesize\ttfamily Array\+List Restaurant\+Library.\+cls\+System.\+Get\+Cls\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get\+Cls\+Table method This method checks if the Array\+List is null, if it is, it creates a new instance of Array\+List object. 
+
+\begin{DoxyReturn}{Returns}
+returns an Array\+List of class Cls\+Table objects.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a9fc8e7d85fbcfdf8d1e4bf3111e965a0}\label{class_restaurant_library_1_1cls_system_a9fc8e7d85fbcfdf8d1e4bf3111e965a0}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!GetEmployer@{GetEmployer}}
+\index{GetEmployer@{GetEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{GetEmployer()}{GetEmployer()}}
+{\footnotesize\ttfamily Array\+List Restaurant\+Library.\+cls\+System.\+Get\+Employer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get\+Persons method This method checks if the Array\+List is null, if it is, it creates a new instance of Array\+List object. persons Array\+List object. 
+
+\begin{DoxyReturn}{Returns}
+returns an Array\+List of class Cls\+Employer objects.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_aa9ae48d4761d7164250239dd3c027627}\label{class_restaurant_library_1_1cls_system_aa9ae48d4761d7164250239dd3c027627}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!GetFldEmployer@{GetFldEmployer}}
+\index{GetFldEmployer@{GetFldEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{GetFldEmployer()}{GetFldEmployer()}}
+{\footnotesize\ttfamily String Restaurant\+Library.\+cls\+System.\+Get\+Fld\+Employer (\begin{DoxyParamCaption}\item[{int}]{prm\+Employer }\end{DoxyParamCaption})}
+
+
+
+Retrieves the ID of an employer with the given employer number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Employer} & The employer number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The ID of the employer.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a1e2e23683c7eebd3a38222e2086f5ba7}\label{class_restaurant_library_1_1cls_system_a1e2e23683c7eebd3a38222e2086f5ba7}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!GetFldTable@{GetFldTable}}
+\index{GetFldTable@{GetFldTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{GetFldTable()}{GetFldTable()}}
+{\footnotesize\ttfamily String Restaurant\+Library.\+cls\+System.\+Get\+Fld\+Table (\begin{DoxyParamCaption}\item[{int}]{prm\+Table }\end{DoxyParamCaption})}
+
+
+
+Retrieves the ID of a table with the given table number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Table} & The table number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The ID of the table.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a9c77ca331e3b3b69c496b0788c2482ec}\label{class_restaurant_library_1_1cls_system_a9c77ca331e3b3b69c496b0788c2482ec}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!getMenuFood@{getMenuFood}}
+\index{getMenuFood@{getMenuFood}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{getMenuFood()}{getMenuFood()}}
+{\footnotesize\ttfamily List$<$ String $>$ Restaurant\+Library.\+cls\+System.\+get\+Menu\+Food (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the list of food items in the menu. 
+
+\begin{DoxyReturn}{Returns}
+The list of food items.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_ae39a8976aafce5deb6e284e2d4958541}\label{class_restaurant_library_1_1cls_system_ae39a8976aafce5deb6e284e2d4958541}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!getMenuPrice@{getMenuPrice}}
+\index{getMenuPrice@{getMenuPrice}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{getMenuPrice()}{getMenuPrice()}}
+{\footnotesize\ttfamily List$<$ Double $>$ Restaurant\+Library.\+cls\+System.\+get\+Menu\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the list of food prices in the menu. 
+
+\begin{DoxyReturn}{Returns}
+The list of food prices.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_ab0d180acaf53bfdcb714f9a0a7d39e19}\label{class_restaurant_library_1_1cls_system_ab0d180acaf53bfdcb714f9a0a7d39e19}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!GetTableState@{GetTableState}}
+\index{GetTableState@{GetTableState}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{GetTableState()}{GetTableState()}}
+{\footnotesize\ttfamily int Restaurant\+Library.\+cls\+System.\+Get\+Table\+State (\begin{DoxyParamCaption}\item[{int}]{prm\+Table }\end{DoxyParamCaption})}
+
+
+
+Retrieves the state of a table with the given table number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Table} & The table number.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The state of the table.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a4303d5f3e6fdf585f854b3c18a5e5f15}\label{class_restaurant_library_1_1cls_system_a4303d5f3e6fdf585f854b3c18a5e5f15}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!NewEmployer@{NewEmployer}}
+\index{NewEmployer@{NewEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{NewEmployer()}{NewEmployer()}}
+{\footnotesize\ttfamily bool Restaurant\+Library.\+cls\+System.\+New\+Employer (\begin{DoxyParamCaption}\item[{string}]{prm\+Name,  }\item[{string}]{prm\+Lastname }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Name} & \\
+\hline
+{\em prm\+Lastname} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a19c8abe48a27cef6100374722a15be3e}\label{class_restaurant_library_1_1cls_system_a19c8abe48a27cef6100374722a15be3e}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!RemoveClsTable@{RemoveClsTable}}
+\index{RemoveClsTable@{RemoveClsTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{RemoveClsTable()}{RemoveClsTable()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Remove\+Cls\+Table (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_restaurant_library_1_1cls_table}{cls\+Table}}}]{old\+Cls\+Table }\end{DoxyParamCaption})}
+
+
+
+Add\+Cls\+Table method adds a new Cls\+Table object to the cls\+Table Array\+List. A new Cls\+Table object to be added in cls\+Table Array\+List. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em old\+Cls\+Table} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a83badb494a864eae31b2a5ef73f7e3dc}\label{class_restaurant_library_1_1cls_system_a83badb494a864eae31b2a5ef73f7e3dc}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!RemoveEmployer@{RemoveEmployer}}
+\index{RemoveEmployer@{RemoveEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{RemoveEmployer()}{RemoveEmployer()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Remove\+Employer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_restaurant_library_1_1cls_employer}{cls\+Employer}}}]{old\+Cls\+Employer }\end{DoxyParamCaption})}
+
+
+
+Remove\+Persons method removes a specific Cls\+Employer object from the persons Array\+List. A Cls\+Employer object to be removed from persons. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em old\+Cls\+Employer} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a995a486d39d9af66c55a0b8dee606258}\label{class_restaurant_library_1_1cls_system_a995a486d39d9af66c55a0b8dee606258}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!SetClsTable@{SetClsTable}}
+\index{SetClsTable@{SetClsTable}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{SetClsTable()}{SetClsTable()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Set\+Cls\+Table (\begin{DoxyParamCaption}\item[{Array\+List}]{new\+Cls\+Table }\end{DoxyParamCaption})}
+
+
+
+Set\+Cls\+Table method sets the Cls\+Table Array\+List object. An Array\+List object containing Cls\+Table elements. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Cls\+Table} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a4a36e2713472c507427f04241bc4b2b7}\label{class_restaurant_library_1_1cls_system_a4a36e2713472c507427f04241bc4b2b7}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!SetEmployer@{SetEmployer}}
+\index{SetEmployer@{SetEmployer}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{SetEmployer()}{SetEmployer()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+Set\+Employer (\begin{DoxyParamCaption}\item[{Array\+List}]{new\+Persons }\end{DoxyParamCaption})}
+
+
+
+Set\+Persons method sets the Persons Array\+List object. An Array\+List object containing Cls\+Employer elements. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Persons} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_ac327e743215eb0b6b8d3678ef9110870}\label{class_restaurant_library_1_1cls_system_ac327e743215eb0b6b8d3678ef9110870}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!setTableState@{setTableState}}
+\index{setTableState@{setTableState}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{setTableState()}{setTableState()}}
+{\footnotesize\ttfamily void Restaurant\+Library.\+cls\+System.\+set\+Table\+State (\begin{DoxyParamCaption}\item[{int}]{prm\+Table,  }\item[{int}]{prm\+State }\end{DoxyParamCaption})}
+
+
+
+Sets the state of a table with the given table number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prm\+Table} & The table number.\\
+\hline
+{\em prm\+State} & The state to set for the table.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_restaurant_library_1_1cls_system_a3f1de7623f5e2db3e4f369e621ba0209}\label{class_restaurant_library_1_1cls_system_a3f1de7623f5e2db3e4f369e621ba0209}} 
+\index{RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}!UpgradeTableState@{UpgradeTableState}}
+\index{UpgradeTableState@{UpgradeTableState}!RestaurantLibrary.clsSystem@{RestaurantLibrary.clsSystem}}
+\doxysubsubsection{\texorpdfstring{UpgradeTableState()}{UpgradeTableState()}}
+{\footnotesize\ttfamily bool Restaurant\+Library.\+cls\+System.\+Upgrade\+Table\+State (\begin{DoxyParamCaption}\item[{string}]{ID,  }\item[{int}]{prm\+Table\+State }\end{DoxyParamCaption})}
+
+
+
+Upgrades the state of a table with the given table ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & The ID of the table.\\
+\hline
+{\em prm\+Table\+State} & The new state to set for the table.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the table state upgrade is successful, false otherwise.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+cls\+System.\+cs\end{DoxyCompactItemize}

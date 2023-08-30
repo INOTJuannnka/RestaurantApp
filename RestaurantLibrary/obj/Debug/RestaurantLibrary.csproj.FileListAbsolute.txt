@@ -1,0 +1,60 @@
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\RestaurantLibrary.pdb
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.AssemblyReference.cache
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CoreCompileInputs.cache
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\obj\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\obj\Debug\RestaurantLibrary.pdb
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Buffers.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Memory.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Buffers.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Memory.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CopyComplete
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantApp\RestaurantLibrary\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\RestaurantLibrary.pdb
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Buffers.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Memory.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Buffers.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Memory.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.AssemblyReference.cache
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CoreCompileInputs.cache
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CopyComplete
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.pdb
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\RestaurantLibrary.pdb
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Buffers.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Memory.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Buffers.xml
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Memory.xml
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.AssemblyReference.cache
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CoreCompileInputs.cache
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.csproj.CopyComplete
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.dll
+C:\Users\juann\OneDrive\Escritorio\EntregaFinal\EntregaFinal\RestaurantAppv2 button\RestaurantAppv2\RestaurantLibrary\obj\Debug\RestaurantLibrary.pdb
